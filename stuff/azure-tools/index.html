@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#tools" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -247,6 +252,22 @@
     <li class="md-tabs__item">
       <a href="../../learn/azure-learn/" class="md-tabs__link">
         🎓 Learn
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../to-read/articles/" class="md-tabs__link">
+        📖 ToRead
       </a>
     </li>
   
@@ -468,6 +489,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Azure tools
@@ -619,12 +642,60 @@
       
       
         <label class="md-nav__link" for="__nav_5">
+          📖 ToRead
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="📖 ToRead" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          📖 ToRead
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../to-read/articles/" class="md-nav__link">
+        Articles
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
           🧑‍💻 Team
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="🧑‍💻 Team" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           🧑‍💻 Team
         </label>
@@ -675,18 +746,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_7">
           🧪 POC
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="🧪 POC" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           🧪 POC
         </label>
@@ -732,9 +803,73 @@
   </a>
 
 
-  <h1>Azure tools</h1>
-
-
+<h1 id="tools">Tools</h1>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Azure Storage Explorer</strong></td>
+<td>Free tool to conveniently manage your Azure cloud storage resources from your desktop.</td>
+<td><a href="https://azure.microsoft.com/en-us/features/storage-explorer/"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>Azure Data Studio</strong></td>
+<td>A modern open-source, cross-platform hybrid data analytics tool designed to simplify the data landscape.</td>
+<td><a href="https://azure.microsoft.com/en-us/services/developer-tools/data-studio/"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>Windows Subsystem for Linux (WSL)</strong></td>
+<td>The Windows Subsystem for Linux lets developers run a GNU/Linux environment.</td>
+<td><a href="https://docs.microsoft.com/en-us/windows/wsl/install"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>PowerShell on Linux</strong></td>
+<td>PowerShell can be installed on different Linux distributions. Most Linux platforms and distributions have a major release each year, and provide a package manager that is used to install PowerShell.</td>
+<td><a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.2"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>Azure CLI on Linux</strong></td>
+<td>The Azure CLI is a cross-platform command-line tool that can be installed locally on Linux computers. You can use the Azure CLI on Linux to connect to Azure and execute administrative commands on Azure resources. The CLI on Linux allows the execution of various commands through a terminal using interactive command-line prompts or a script.</td>
+<td><a href="https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>Oh My Zsh</strong></td>
+<td>Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration.</td>
+<td><a href="https://ohmyz.sh/"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>Oh My Posh</strong></td>
+<td>A prompt theme engine for any shell.</td>
+<td><a href="https://www.ohmyposh.dev/"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>Visual Studio Code Dev</strong></td>
+<td>A lightweight version of Visual Studio Code running fully in the browser. Open a folder on your local machine and start coding.</td>
+<td><a href="https://vscode.dev/"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>Winget</strong></td>
+<td>Windows Package Manager CLI (aka winget)</td>
+<td><a href="https://github.com/microsoft/winget-cli"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td><strong>InfraCost</strong></td>
+<td>Cloud cost estimates for Terraform in pull requests.</td>
+<td><a href="https://www.infracost.io/"><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+<tr>
+<td>****</td>
+<td></td>
+<td><a href=""><img src="https://github.com/jcabeza/azure/blob/main/docs/assets/reshot-icon-link.svg?raw=true" width="50"/></a></td>
+</tr>
+</tbody>
+</table>
 
 
 
