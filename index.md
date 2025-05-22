@@ -72,6 +72,7 @@ layout: default
 
 - [Visual Subnet Calculator Online](https://visualsubnetcalc.com/)
 - [Visual Subnet Calculator Online (davidc)](https://www.davidc.net/sites/default/subnets/subnets.html)
+- [Azure Icons](https://az-icons.com/)
 - [Azure Logo](https://swimburger.net/blog/azure/azure-has-a-new-logo-but-where-do-you-download-it-here)
 - [David Summers - Azure Visio Stencils Pack](https://github.com/David-Summers/Azure-Design)
 - [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons)
