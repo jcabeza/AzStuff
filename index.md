@@ -60,13 +60,13 @@ layout: default
 - [Oh My Posh](https://www.ohmyposh.dev)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Visual Studio Code Dev (browser)](https://vscode.dev)
-- [Browse code samples](https://learn.microsoft.com/en-us/samples/browse)
 - [Terraform](https://www.terraform.io)
 - [Terraform Registry](https://registry.terraform.io)
-- [Claranet Tfwrapper](https://github.com/claranet/terraform-wrapper)
-- [Git Command Explorer](https://gitexplorer.com)
+- [DevDocs](https://devdocs.io)
 - [Azure DevOps Demo](https://azuredevopsdemogenerator.azurewebsites.net)
 - [Terraform Plan Visualizer](https://github.com/matthieupetite/terraform-plan-visualizer-with-rover)
+- [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli)
+- [Windows 11 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines)
 
 #### Misc Tools
 
@@ -82,8 +82,6 @@ layout: default
 - [Online Calculator for Uptime and Downtime with SLA](https://uptime.is)
 - [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org)
 - [InfraCost (Cloud Cost Estimator)](https://www.infracost.io)
-- [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli)
-- [Windows 11 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines)
 - [Azure IP Address Management](https://azure.github.io/ipam/#/)
 - [Wireshark](https://www.wireshark.org)
 
@@ -91,32 +89,22 @@ layout: default
 
 > Azure Learn
 
+- [Azure Learning Pathways](https://learning-pathways.co.uk)
 - [Microsoft Learn](https://learn.microsoft.com/en-us/training)
 - [Microsoft Learn Github](https://github.com/MicrosoftLearning)
-- [Microsoft Training Gallery](https://partner.microsoft.com/en-us/training)
-- [Azure Learning Pathways](https://learning-pathways.co.uk)
 - [Azure DevOps Labs](https://azuredevopslabs.com)
 - [Microsoft Virtual Training Days & Events](https://events.microsoft.com/en-us)
-- [Microsoft Experiences](https://experiences.microsoft.fr/calendrier-formations)
 - [Microsoft Partner Training France](https://msit.powerbi.com/view?r=eyJrIjoiMjY1Njk3YjAtN2E5MC00NDIzLTg5MmEtYzAzYzBlMDYxZWY3IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&pageName=ReportSection)
 - [Pluralsight (Pay)](https://www.pluralsight.com)
 - [A Cloud Guru (Pay)](https://acloudguru.com)
+- [Microsoft Certifications](https://learn.microsoft.com/en-us/certifications)
+- [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
 
 > Misc Learn
 
 - [Kubernetes Learning Path](https://azure.microsoft.com/mediahandler/files/resourcefiles/kubernetes-learning-path/Kubernetes%20Learning%20Path_Version%202.0.pdf)
-- [Wild-West Kubernetes Game (deprecated)](https://github.com/gshipley/wild-west-kubernetes)
 - [HashiCorp Terraform for Azure](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)
-- [Katacoda (deprecated)](https://www.katacoda.com)
 - [HashiCorp Vault (Get Started)](https://developer.hashicorp.com/vault/tutorials/getting-started)
-- [DevDocs](https://devdocs.io)
-- [A Cloud Guru (Pay)](https://acloudguru.com)
-
-#### Certifications
-
-- [Microsoft Certifications](https://learn.microsoft.com/en-us/certifications)
-- [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
-- [HashiCorp Terraform Associate (002)](https://developer.hashicorp.com/terraform/tutorials/certification-associate-tutorials)
 
 #### Sandbox
 
