@@ -1,2 +1,1 @@
-# AzStuff
-Azure Stuff
+![](/assets/AzStuff_1.png)
