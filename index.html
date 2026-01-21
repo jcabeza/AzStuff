@@ -312,12 +312,12 @@
 				</div>
 				<div class="list-card">
 					<div>
-						<h2><a href="https://github.com/microsoft/winget-cli">Windows Package Manager CLI (aka winget)</a></h2>
+						<h2><a href="https://github.com/microsoft/winget-cli">Windows Package Manager (WinGet)</a></h2>
 					</div>
 				</div>
 				<div class="list-card">
 					<div>
-						<h2><a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines">Windows 11 development environment</a></h2>
+						<h2><a href="https://azure.github.io/Azure-Verified-Modules">Azure Verified Module (AVM)</a></h2>
 					</div>
 				</div>
 			</div>
@@ -334,7 +334,7 @@
 				</div>
 				<div class="list-card">
 					<div>
-						<h2><a href="https://status.dev.azure.com/">Azure DevOps Status</a></h2>
+						<h2><a href="https://status.dev.azure.com">Azure DevOps Status</a></h2>
 					</div>
 				</div>
 				<div class="list-card">
@@ -349,7 +349,19 @@
 				</div>
 				<div class="list-card">
 					<div>
-						<h2><a href="https://regionspan.azure.cloud63.fr/">Azure Region Span</a></h2>
+						<h2><a href="https://regionspan.azure.cloud63.fr">Azure Region Span</a></h2>
+					</div>
+				</div>
+				<h2 class="section-title">Blogs</h2>
+	
+				<div class="list-card">
+					<div>
+						<h2><a href="https://blog.cloudtrooper.net">Cloudtrooper</a></h2>
+					</div>
+				</div>
+				<div class="list-card">
+					<div>
+						<h2><a href="https://pixelrobots.co.uk">Pixel Robots</a></h2>
 					</div>
 				</div>
 			</div>
@@ -437,7 +449,7 @@
 		<div class="card">
 			<div class="Skills">
 				<span><a href="https://regionspan.azure.cloud63.fr"><img src="assets/img/00001-icon-service-Monitor.svg" style="height:65px; vertical-align:middle; margin-right:5px;"></a></span>
-				<h2><br><center>Azure egion Span</center></h2>
+				<h2><br><center>Azure Region Span</center></h2>
 			</div>
 
 			<div class="skill-meta">
@@ -456,6 +468,15 @@
 		<span style="font-size: 16px; margin-top: 0"><a href="https://jcabeza.github.io/AzStuff/"> AzStuff </a> - Developed with Love ❤️ </span>
 		<span></span><img src="assets/img/github/github-mark.svg" style="height:35px; vertical-align:middle; margin-right:5px;"><a href="https://jcabeza.github.io/AzStuff/"></span>
 		<span class="email">https://github.com/jcabeza</span>
+
+		<p>Your IP: <span id="ip"></span></p>
+			<script>
+    		fetch("https://api.ipify.org?format=json")
+      		.then(res => res.json())
+      		.then(data => {
+        	document.getElementById("ip").textContent = data.ip;
+      		});
+  			</script>
 	</footer>
 	
 </body>
