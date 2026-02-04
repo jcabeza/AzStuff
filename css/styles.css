@@ -465,4 +465,9 @@ li .description {
   opacity: 0.8;
 }
 
+.buttons-row {
+  display: flex;
+  gap: 10px; /* espace entre les boutons */
+}
+
 /* End of all :P*/
