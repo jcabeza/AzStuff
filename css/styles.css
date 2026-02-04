@@ -465,9 +465,16 @@ li .description {
   opacity: 0.8;
 }
 
-.buttons-row {
-  display: flex;
-  gap: 10px; /* espace entre les boutons */
+.button-title {
+	vertical-align: top;
+	background-color: #D9E7F8;
+	color: #4A90E2;
+	font-weight: 600;
+	margin-top: 5px;
+	margin-left: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 15px 25px;
 }
 
 /* End of all :P*/
